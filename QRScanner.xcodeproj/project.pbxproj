@@ -14,6 +14,7 @@
 		3270A3101F311FC800BECEE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3270A30F1F311FC800BECEE4 /* Assets.xcassets */; };
 		3270A3131F311FC800BECEE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3270A3111F311FC800BECEE4 /* LaunchScreen.storyboard */; };
 		3270A31E1F311FC800BECEE4 /* QRScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3270A31D1F311FC800BECEE4 /* QRScannerTests.swift */; };
+		3270A3291F311FE400BECEE4 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3270A3281F311FE400BECEE4 /* CodeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3270A3191F311FC800BECEE4 /* QRScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3270A31D1F311FC800BECEE4 /* QRScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerTests.swift; sourceTree = "<group>"; };
 		3270A31F1F311FC800BECEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3270A3281F311FE400BECEE4 /* CodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				3270A3051F311FC800BECEE4 /* AppDelegate.swift */,
 				3270A3071F311FC800BECEE4 /* ViewController.swift */,
 				3270A3091F311FC800BECEE4 /* Main.storyboard */,
+				3270A3281F311FE400BECEE4 /* CodeViewController.swift */,
 				3270A30F1F311FC800BECEE4 /* Assets.xcassets */,
 				3270A3111F311FC800BECEE4 /* LaunchScreen.storyboard */,
 				3270A3141F311FC800BECEE4 /* Info.plist */,
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3270A3081F311FC800BECEE4 /* ViewController.swift in Sources */,
+				3270A3291F311FE400BECEE4 /* CodeViewController.swift in Sources */,
 				3270A30E1F311FC800BECEE4 /* QRScanner.xcdatamodeld in Sources */,
 				3270A3061F311FC800BECEE4 /* AppDelegate.swift in Sources */,
 			);
